@@ -15,6 +15,8 @@ public class ModItems {
 
     public static final RegistryObject<Item> SQUID_FLESH = ITEMS.register("squid_flesh",
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_FOOD)));
+    public static final RegistryObject<Item> SHEEP_MILK_BUCKET = ITEMS.register("sheep_milk_bucket",
+            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_FOOD)));
 
 
     public static void register(IEventBus eventBus) {
