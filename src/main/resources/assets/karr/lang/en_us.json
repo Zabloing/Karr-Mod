@@ -7,5 +7,7 @@
   "item.karr.rice": "Rice",
   "item.karr.urine_bucket": "Bucket of Urine",
   "item.karr.spinal_bucket": "Bucket of Spinal Fluid",
-  "item.karr.acid_bucket": "Bucket of Acid"
+  "item.karr.acid_bucket": "Bucket of Acid",
+
+  "block.karr.flesh_block": "Flesh Block"
 }
