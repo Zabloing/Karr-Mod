@@ -1,4 +1,11 @@
 {
   "item.karr.squid_flesh": "Squid Flesh",
-  "item.karr.sheep_milk_bucket": "Bucket of Sheep Milk"
+  "item.karr.sheep_milk_bucket": "Bucket of Sheep Milk",
+  "item.karr.goat_milk_bucket": "Bucket of Goat Milk",
+  "item.karr.oil_bucket": "Bucket of Oil",
+  "item.karr.blood_bucket": "Bucket of Blood",
+  "item.karr.rice": "Rice",
+  "item.karr.urine_bucket": "Bucket of Urine",
+  "item.karr.spinal_bucket": "Bucket of Spinal Fluid",
+  "item.karr.acid_bucket": "Bucket of Acid"
 }
