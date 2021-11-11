@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "side": "karr:block/googic_bone_side",
+    "end": "karr:block/googic_bone_top"
+  }
+}

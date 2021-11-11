@@ -18,8 +18,11 @@ import java.util.function.Supplier;
 public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, Karr.MOD_ID);
-
+    //flesh_block
     public static final RegistryObject<Block> FLESH_BLOCK = registerBlock("flesh_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(10f)));
+    //googic_bone
+    public static final RegistryObject<Block> GOOGIC_BONE = registerBlock("googic_bone",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(10f)));
 
     //block stuff
