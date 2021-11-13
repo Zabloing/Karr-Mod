@@ -10,5 +10,9 @@
   "item.karr.acid_bucket": "Bucket of Acid",
 
   "block.karr.flesh_block": "Flesh Block",
-  "block.karr.googic_bone": "Googic Bone"
+  "block.karr.googic_bone": "Googic Bone",
+  "block.karr.fat_block": "Fat Block",
+  "block.karr.skin_block": "Skin Block",
+  "block.karr.charred_googic_bone": "Charred Googic Bone",
+  "block.karr.charred_fat_block": "Charred Fat Block"
 }
