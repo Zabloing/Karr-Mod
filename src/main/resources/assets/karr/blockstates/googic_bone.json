@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": { "model": "karr:block/googic_bone" }
+    "axis=x": { "model": "karr:block/googic_bone", "x": 90, "y": 90 },
+    "axis=y": { "model": "karr:block/googic_bone" },
+    "axis=z": { "model": "karr:block/googic_bone", "x": 90 }
   }
 }
