@@ -7,6 +7,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.pongascreaj.karr.block.ModBlocks;
+import net.pongascreaj.karr.entity.ModEntities;
 import net.pongascreaj.karr.item.ModItems;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -25,6 +26,7 @@ public class Karr {
         //register
         ModItems.register(eventBus);
         ModBlocks.register(eventBus);
+        ModEntities.register(eventBus);
 
         eventBus.addListener(this::setup);
 

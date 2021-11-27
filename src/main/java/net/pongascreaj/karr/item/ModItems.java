@@ -42,6 +42,9 @@ public class ModItems {
     //skin_flake
     public static final RegistryObject<Item> SKIN_FLAKE = ITEMS.register("skin_flake",
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC).stacksTo(64)));
+    //mystery_meat
+    public static final RegistryObject<Item> MYSTERY_MEAT = ITEMS.register("mystery_meat",
+            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC).stacksTo(64)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

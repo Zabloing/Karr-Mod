@@ -22,7 +22,7 @@ public class ModBlocks {
             DeferredRegister.create(ForgeRegistries.BLOCKS, Karr.MOD_ID);
     //flesh_block
     public static final RegistryObject<Block> FLESH_BLOCK = registerBlock("flesh_block",
-            () -> new Block(BlockBehaviour.Properties.of(Material.CLAY).strength(8f)));
+            () -> new Block(BlockBehaviour.Properties.of(Material.CLAY).strength(6f)));
     //googic_bone
     public static final RegistryObject<Block> GOOGIC_BONE = registerBlock("googic_bone",
             () -> new RotatedPillarBlock(BlockBehaviour.Properties.of(Material.STONE).strength(10f)));
